@@ -6,7 +6,7 @@ namespace AUTOMATINIS_TESTAVIMAS
 {
     internal class Diena
     {
-
+        [Test]
         public void naujas()
 
         {
@@ -14,7 +14,7 @@ namespace AUTOMATINIS_TESTAVIMAS
             int sk2 = 8;
             int expectedResult = 14;
 
-            int actualResult = sk1 + sk2;
+            int actualResult = sk1 - sk2;
 
             Assert.AreEqual(expectedResult, actualResult);
         }
